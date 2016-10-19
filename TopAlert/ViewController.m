@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TopAlert.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+  
+}
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    TopAlert *alert =[[TopAlert alloc]initWithStyle:RGB(@"#8e44ad")];
+    alert.headerTitle =@"headerTitle";
+    alert.contentText =@"contentText";
 }
 
 
