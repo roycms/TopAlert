@@ -14,6 +14,8 @@ TopAlert is a tip at the top of the pop-up IOS UI controls, can be easily integr
 
 ## cocoapods 
 `  pod 'TopAlert' `
+## UI Recommend the color
+ ![Logo](https://github.com/roycms/TopAlert/blob/master/TopAlert/FlatColors.png)
 
 ## Use 
 return type UIColor
