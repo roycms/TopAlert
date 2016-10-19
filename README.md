@@ -1,5 +1,5 @@
 
- ![Logo](https://github.com/roycms/TopAlert/blob/master/RGB/logo.png)
+ ![Logo](https://github.com/roycms/TopAlert/blob/master/TopAlert/logo.png)
  RGB
 ===
 TopAlert is a tip at the top of the pop-up IOS UI controls, can be easily integrated into your project.
