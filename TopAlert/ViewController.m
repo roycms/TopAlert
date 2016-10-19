@@ -21,7 +21,7 @@
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     TopAlert *alert =[[TopAlert alloc]initWithStyle:RGB(@"#8e44ad")];
-    alert.headerTitle =@"headerTitle";
+    alert.headerTitle =@"Title";
     alert.contentText =@"contentText";
 }
 
