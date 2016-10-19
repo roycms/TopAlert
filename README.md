@@ -1,6 +1,6 @@
 
  ![Logo](https://github.com/roycms/TopAlert/blob/master/TopAlert/logo.png)
- RGB
+ TopAlert
 ===
 TopAlert is a tip at the top of the pop-up IOS UI controls, can be easily integrated into your project.
 
@@ -18,9 +18,9 @@ TopAlert is a tip at the top of the pop-up IOS UI controls, can be easily integr
 ## Use 
 return type UIColor
 ```objective-c
-    TopAlert *alert =[[TopAlert alloc]initWithStyle:RGB(@"#8e44ad")];
-    alert.headerTitle =@"Title";
-    alert.contentText =@"contentText";
+TopAlert *alert =[[TopAlert alloc]initWithStyle:RGB(@"#8e44ad")];
+alert.headerTitle =@"Title";
+alert.contentText =@"contentText";
 ```
 
 ## 期待
