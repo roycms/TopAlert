@@ -16,6 +16,8 @@
 		B06B278C1DB7622900ACA590 /* TopAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B06B278B1DB7622900ACA590 /* TopAlertTests.m */; };
 		B06B27971DB7622900ACA590 /* TopAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B06B27961DB7622900ACA590 /* TopAlertUITests.m */; };
 		B06B27A71DB76C0900ACA590 /* TopAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B06B27A61DB76C0900ACA590 /* TopAlert.m */; };
+		B06B27A91DB7737100ACA590 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B06B27A81DB7737100ACA590 /* logo.png */; };
+		B06B27AB1DB7738B00ACA590 /* FlatColors.png in Resources */ = {isa = PBXBuildFile; fileRef = B06B27AA1DB7738B00ACA590 /* FlatColors.png */; };
 		F8EDB09FD2193E689A50D9BC /* libPods-TopAlert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220F339B4018CA0A5D3DF4FC /* libPods-TopAlert.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +60,8 @@
 		B06B27981DB7622900ACA590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B06B27A51DB76C0900ACA590 /* TopAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopAlert.h; sourceTree = "<group>"; };
 		B06B27A61DB76C0900ACA590 /* TopAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopAlert.m; sourceTree = "<group>"; };
+		B06B27A81DB7737100ACA590 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		B06B27AA1DB7738B00ACA590 /* FlatColors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlatColors.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		B06B27701DB7622900ACA590 /* TopAlert */ = {
 			isa = PBXGroup;
 			children = (
+				B06B27AA1DB7738B00ACA590 /* FlatColors.png */,
+				B06B27A81DB7737100ACA590 /* logo.png */,
 				B06B27741DB7622900ACA590 /* AppDelegate.h */,
 				B06B27751DB7622900ACA590 /* AppDelegate.m */,
 				B06B27771DB7622900ACA590 /* ViewController.h */,
@@ -286,9 +292,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06B27A91DB7737100ACA590 /* logo.png in Resources */,
 				B06B27811DB7622900ACA590 /* LaunchScreen.storyboard in Resources */,
 				B06B277E1DB7622900ACA590 /* Assets.xcassets in Resources */,
 				B06B277C1DB7622900ACA590 /* Main.storyboard in Resources */,
+				B06B27AB1DB7738B00ACA590 /* FlatColors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
