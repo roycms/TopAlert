@@ -18,7 +18,6 @@ TopAlert is a tip at the top of the pop-up IOS UI controls, can be easily integr
  ![Logo](https://github.com/roycms/TopAlert/blob/master/TopAlert/FlatColors.png)
 
 ## Use 
-return type UIColor
 ```objective-c
 TopAlert *alert =[[TopAlert alloc]initWithStyle:RGB(@"#8e44ad")];
 alert.headerTitle =@"Title";
