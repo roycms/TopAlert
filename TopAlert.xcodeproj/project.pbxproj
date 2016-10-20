@@ -118,9 +118,7 @@
 		B06B27701DB7622900ACA590 /* TopAlert */ = {
 			isa = PBXGroup;
 			children = (
-				B0778C691DB85BA000DFBC72 /* bg.jpg */,
-				B06B27AA1DB7738B00ACA590 /* FlatColors.png */,
-				B06B27A81DB7737100ACA590 /* logo.png */,
+				B0778C6E1DB8F79F00DFBC72 /* Resource */,
 				B06B27741DB7622900ACA590 /* AppDelegate.h */,
 				B06B27751DB7622900ACA590 /* AppDelegate.m */,
 				B06B27771DB7622900ACA590 /* ViewController.h */,
@@ -167,6 +165,16 @@
 				B06B27A61DB76C0900ACA590 /* TopAlert.m */,
 			);
 			path = TopAlertClassess;
+			sourceTree = "<group>";
+		};
+		B0778C6E1DB8F79F00DFBC72 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B0778C691DB85BA000DFBC72 /* bg.jpg */,
+				B06B27AA1DB7738B00ACA590 /* FlatColors.png */,
+				B06B27A81DB7737100ACA590 /* logo.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 		D007C9C79A16D7655938F50D /* Frameworks */ = {
