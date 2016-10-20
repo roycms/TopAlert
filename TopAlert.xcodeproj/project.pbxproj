@@ -256,6 +256,7 @@
 				TargetAttributes = {
 					B06B276D1DB7622900ACA590 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8N7N7WZT8J;
 						ProvisioningStyle = Automatic;
 					};
 					B06B27861DB7622900ACA590 = {
@@ -524,7 +525,9 @@
 			baseConfigurationReference = 0EB04E83B97D8402A841A41C /* Pods-TopAlert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N7N7WZT8J;
 				INFOPLIST_FILE = TopAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.roycms.TopAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -536,7 +539,9 @@
 			baseConfigurationReference = 1C5008C5048A543AF065FA0A /* Pods-TopAlert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N7N7WZT8J;
 				INFOPLIST_FILE = TopAlert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.roycms.TopAlert;
 				PRODUCT_NAME = "$(TARGET_NAME)";
