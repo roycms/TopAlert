@@ -18,6 +18,7 @@
 		B06B27A71DB76C0900ACA590 /* TopAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B06B27A61DB76C0900ACA590 /* TopAlert.m */; };
 		B06B27A91DB7737100ACA590 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B06B27A81DB7737100ACA590 /* logo.png */; };
 		B06B27AB1DB7738B00ACA590 /* FlatColors.png in Resources */ = {isa = PBXBuildFile; fileRef = B06B27AA1DB7738B00ACA590 /* FlatColors.png */; };
+		B0778C6A1DB85BA000DFBC72 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B0778C691DB85BA000DFBC72 /* bg.jpg */; };
 		F8EDB09FD2193E689A50D9BC /* libPods-TopAlert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220F339B4018CA0A5D3DF4FC /* libPods-TopAlert.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		B06B27A61DB76C0900ACA590 /* TopAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopAlert.m; sourceTree = "<group>"; };
 		B06B27A81DB7737100ACA590 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		B06B27AA1DB7738B00ACA590 /* FlatColors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlatColors.png; sourceTree = "<group>"; };
+		B0778C691DB85BA000DFBC72 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		B06B27701DB7622900ACA590 /* TopAlert */ = {
 			isa = PBXGroup;
 			children = (
+				B0778C691DB85BA000DFBC72 /* bg.jpg */,
 				B06B27AA1DB7738B00ACA590 /* FlatColors.png */,
 				B06B27A81DB7737100ACA590 /* logo.png */,
 				B06B27741DB7622900ACA590 /* AppDelegate.h */,
@@ -296,6 +299,7 @@
 				B06B27811DB7622900ACA590 /* LaunchScreen.storyboard in Resources */,
 				B06B277E1DB7622900ACA590 /* Assets.xcassets in Resources */,
 				B06B277C1DB7622900ACA590 /* Main.storyboard in Resources */,
+				B0778C6A1DB85BA000DFBC72 /* bg.jpg in Resources */,
 				B06B27AB1DB7738B00ACA590 /* FlatColors.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
