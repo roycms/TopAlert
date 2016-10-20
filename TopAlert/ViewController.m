@@ -35,10 +35,16 @@
     label.text =@"TopAlert";
     [label setFont:[UIFont systemFontOfSize:30.0]];
     [label setTextColor:RGB16(0x3d3d3d)];
+    
+    UILabel *githubLabel =[[UILabel alloc]init];
+    githubLabel.text =@"https://github.com/roycms";
+    [githubLabel setFont:[UIFont systemFontOfSize:11]];
+    [githubLabel setTextColor:RGB16(0x3d3d3d)];
     [self.view addSubview:imageView];
     [imageView addSubview:effectView];
     [self.view addSubview:logoImageView];
     [self.view addSubview:label];
+    [self.view addSubview:githubLabel];
     [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
@@ -53,11 +59,15 @@
         make.top.equalTo(logoImageView.mas_bottom).offset(10);
         make.centerX.equalTo(self.view);
     }];
+    [githubLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.view).offset(-10);
+        make.centerX.equalTo(self.view);
+    }];
     
 
 }
 -(void)buttonUI{
-    self.arry = @[@"#1abc9c",@"#27ae60",@"#2980b9",@"#2c3e50",@"#8e44ad",@"#f39c12",@"#c0392b",@"#7f8c8d",@"#bdc3c7"];
+    self.arry = @[@"#1abc9c",@"#27ae60",@"#2980b9",@"#2c3e50",@"#8e44ad",@"#f39c12",@"#c0392b"];
     for (int i=0;i<self.arry.count;i++) {
         UIButton *bt = [[UIButton alloc]init];
         [bt setBackgroundColor:RGB16(0xf8f8f8)];
