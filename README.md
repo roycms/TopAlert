@@ -9,6 +9,9 @@ TopAlert is a tip at the top of the pop-up IOS UI controls, can be easily integr
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?maxAge=2592000?style=flat-square)](https://github.com/roycms/RAlertView/blob/master/LICENSE)
 [![email](https://img.shields.io/badge/%20email%20-%20roycms%40qq.com%20-yellowgreen.svg)](mailto:roycms@qq.com)
 
+## Warning content
+ ![预览](https://github.com/roycms/TopAlert/blob/master/TopAlert/TopAlert.gif)
+ 
 ## Installation
 - Import the main header file：`#import "TopAlert.h"`
 
