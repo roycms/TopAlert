@@ -1,5 +1,5 @@
 
- ![Logo](https://github.com/roycms/TopAlert/blob/master/TopAlert/logo.png)
+ ![Logo](https://roycms.github.io/TopAlert/TopAlert/logo.png)
  TopAlert
 ===
 TopAlert is a tip at the top of the pop-up IOS UI controls, can be easily integrated into your project.
@@ -10,7 +10,7 @@ TopAlert is a tip at the top of the pop-up IOS UI controls, can be easily integr
 [![email](https://img.shields.io/badge/%20email%20-%20roycms%40qq.com%20-yellowgreen.svg)](mailto:roycms@qq.com)
 
 ## Warning content
- ![预览](https://github.com/roycms/TopAlert/blob/master/TopAlert/TopAlert.gif)
+ ![预览](https://roycms.github.io/TopAlert/TopAlert/TopAlert.gif)
  
 ## Installation
 - Import the main header file：`#import "TopAlert.h"`
@@ -18,7 +18,7 @@ TopAlert is a tip at the top of the pop-up IOS UI controls, can be easily integr
 ## cocoapods 
 `  pod 'TopAlert' `
 ## UI Recommend the color
- ![Logo](https://github.com/roycms/TopAlert/blob/master/TopAlert/FlatColors.png)
+ ![Logo](https://roycms.github.io/TopAlert/TopAlert/FlatColors.png)
 
 ## Use 
 ```objective-c
